@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_centerVertical="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/tv_staff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_blue_rd_4"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:text="STAFF"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
